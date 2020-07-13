@@ -1,0 +1,15 @@
+export using <stdio.h>::{
+  dprintf,
+  fprintf,
+  printf,
+  snprintf,
+  sprintf,
+}
+
+export using <stdarg.h>::{
+  vdprintf,
+  vfprintf,
+  vprintf,
+  vsprintf,
+  vsnprintf,
+}
